@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: AKIAQYLPMN5HHHFPZAN2
+      AWS_SECRET_ACCESS_KEY: 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
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Deploying..."
