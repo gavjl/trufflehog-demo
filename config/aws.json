@@ -1,4 +1,4 @@
 ﻿{
-  "aws_access_key_id": "AKIAQYLPMN5HHHFPZAN2",
-  "aws_secret_access_key": "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"
+  "aws_access_key_id": "{{KEYS.AWS_ACCESS}}",
+  "aws_secret_access_key": "{{KEYS.AWS_SECRET}}"
 }
